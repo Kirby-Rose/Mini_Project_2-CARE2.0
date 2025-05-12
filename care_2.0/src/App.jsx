@@ -7,7 +7,6 @@ import BrandingBar from "./components/BrandingBar";
 function App() {
   return (
     <>
-      <BrandingBar />
       <HeaderNavBar />
       <Container
         sx={{

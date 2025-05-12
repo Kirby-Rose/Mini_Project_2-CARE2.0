@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Golden Retriever",
+    "fullDescription": "Golden Retrievers are friendly, intelligent, and devoted dogs. They are great family pets and are known for their gentle temperament.",
+    "diet": [
+      "High-quality dog food with balanced nutrients.",
+      "Occasional treats for training purposes.",
+      "Fresh water available at all times."
+    ],
+    "exercise": [
+      "Daily walks for at least 30-60 minutes.",
+      "Playtime with toys like balls or frisbees.",
+      "Swimming or other physical activities to keep them engaged."
+    ],
+    "housing": [
+      "A spacious home with a yard is ideal.",
+      "Comfortable bedding in a quiet area.",
+      "Shelter from extreme weather conditions."
+    ],
+    "image": "../Assets/GoldenRetriever.jpg"
+  },
+  {
+    "title": "Leopard Gecko",
+    "fullDescription": "Leopard Geckos are low-maintenance, docile reptiles that make excellent pets for beginners. They are known for their unique spotted patterns and calm demeanor.",
+    "diet": [
+      "Live insects like crickets, mealworms, or dubia roaches.",
+      "Calcium and vitamin D3 supplements for healthy growth.",
+      "Fresh water in a shallow dish."
+    ],
+    "exercise": [
+      "Climbing on rocks or branches in their enclosure.",
+      "Exploring their habitat during the night.",
+      "Occasional handling to build trust."
+    ],
+    "housing": [
+      "A 10-20 gallon terrarium with a secure lid.",
+      "Warm and cool zones with proper temperature gradients.",
+      "Hiding spots and substrate suitable for reptiles."
+    ],
+    "image": "../Assets/LeopardGecko.jpg"
+  },
+  {
+    "title": "Persian Cat",
+    "fullDescription": "Persian cats are calm, affectionate, and enjoy a relaxed lifestyle. They are known for their luxurious coats and sweet temperament.",
+    "diet": [
+      "High-quality cat food, both wet and dry.",
+      "Occasional treats for variety.",
+      "Fresh water available at all times."
+    ],
+    "exercise": [
+      "Interactive toys like feather wands or laser pointers.",
+      "Climbing trees or scratching posts for activity.",
+      "Short play sessions to keep them entertained."
+    ],
+    "housing": [
+      "Indoor living to protect their coat and health.",
+      "Soft bedding in a quiet, cozy spot.",
+      "Regular grooming to maintain their fur."
+    ],
+    "image": "../Assets/PersianCat.jpg"
+  },
+  {
+    "title": "Goldfish",
+    "fullDescription": "Goldfish are peaceful, hardy, and easy-to-care-for aquatic pets. They are ideal for beginners and thrive in well-maintained aquariums.",
+    "diet": [
+      "High-quality fish flakes or pellets.",
+      "Occasional treats like freeze-dried or live food.",
+      "Avoid overfeeding to maintain water quality."
+    ],
+    "exercise": [
+      "Adequate swimming space in the tank.",
+      "Decorations like plants or rocks for exploration.",
+      "Proper filtration to ensure water movement."
+    ],
+    "housing": [
+      "A spacious aquarium with at least 20 gallons of water.",
+      "Regular water changes and filtration.",
+      "Stable water temperature and pH levels."
+    ],
+    "image": "../Assets/Goldfish.jpg"
+  }
+]
