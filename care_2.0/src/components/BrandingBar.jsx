@@ -1,14 +1,15 @@
 import * as React from "react";
-import { AppBar, Box, Toolbar, Typography, Button } from "@mui/material";
+import { Box, CardMedia } from "@mui/material";
 
 const BrandingBar = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          CARE
-        </Typography>
-      </AppBar>
+    <Box>
+      <CardMedia
+        id="Gary"
+        component="img"
+        image="../assets/Gary_noBackground.png.png"
+        alt="Care Gecko"
+      />
     </Box>
   );
 };
