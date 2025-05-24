@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cat Kibble",
+      "description": "Nutritious dry food for cats of all ages.",
+      "price": 29.99,
+      "imageUrl": "assets/shopItems/catBiscuits.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cat's Castle",
+      "description": "A luxurious multi-level cat tree for climbing and lounging.",
+      "price": 89.99,
+      "imageUrl": "assets/shopItems/catCastle.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cat Food",
+      "description": "Premium wet food for cats, available in various flavors.",
+      "price": 6.99,
+      "imageUrl": "assets/shopItems/catMeat.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Coop",
+      "description": "Spacious and secure coop for housing up to 4 chickens.",
+      "price": 249.99,
+      "imageUrl": "assets/shopItems/chickenCoop.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Food",
+      "description": "High-quality feed to keep your chickens healthy and productive.",
+      "price": 29.99,
+      "imageUrl": "assets/shopItems/chickenFood.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Treats",
+      "description": "Delicious and nutritious treats for your chickens.",
+      "price": 15.99,
+      "imageUrl": "assets/shopItems/chickenSnacks.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dog Bed",
+      "description": "Comfortable and durable bed for dogs of all sizes.",
+      "price": 39.99,
+      "imageUrl": "assets/shopItems/dogBed.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Dog Kibble",
+      "description": "Balanced dry food for dogs, packed with essential nutrients.",
+      "price": 34.99,
+      "imageUrl": "assets/shopItems/dogBiscuits.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Dog Collar",
+      "description": "Adjustable and durable collar for dogs.",
+      "price": 19.99,
+      "imageUrl": "assets/shopItems/dogCollar.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Dog Lead",
+      "description": "Strong and reliable lead for walking your dog.",
+      "price": 24.99,
+      "imageUrl": "assets/shopItems/dogLead.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Raw Dog Food",
+      "description": "Frozen raw food for dogs, made with fresh ingredients.",
+      "price": 29.99,
+      "imageUrl": "assets/shopItems/dogMeat.jpg"
+    }
+  ]
+}

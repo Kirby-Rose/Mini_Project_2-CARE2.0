@@ -1,10 +1,12 @@
-import * as React from "react";
 import { AppBar, Box, Toolbar, Typography, Button } from "@mui/material";
 import BrandingBar from "./BrandingBar";
+import { useNavigate } from "react-router-dom";
 
 const HeaderNavBar = () => {
+  const navigate = useNavigate();
+
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ height: "14vh", flexGrow: 1 }}>
       <AppBar>
         <Toolbar id="toolbar">
           <BrandingBar />
@@ -21,11 +23,21 @@ const HeaderNavBar = () => {
           >
             CARE
           </Typography>
-          <Button color="inherit">Shop</Button>
-          <Button color="inherit">Pet Care</Button>
-          <Button color="inherit">Subscriptions</Button>
-          <Button color="inherit">My Profile</Button>
-          <Button color="inherit">Join Care</Button>
+          <Button color="inherit" onClick={() => navigate("/ShopPage")}>
+            Shop
+          </Button>
+          <Button color="inherit" onClick={() => navigate("/PetPage")}>
+            Pet Care
+          </Button>
+          <Button color="inherit" onClick={() => navigate("/SubscriptionPage")}>
+            Subscriptions
+          </Button>
+          <Button color="inherit" onClick={() => navigate("/LogInPage")}>
+            My Profile
+          </Button>
+          <Button color="inherit" onClick={() => navigate("/SignUpPage")}>
+            Join Care
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

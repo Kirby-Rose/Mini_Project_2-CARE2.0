@@ -1,0 +1,14 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Care 2.0 API",
+    "description": "API documentation for the Care 2.0 Project, providing endpoints for pets health information, store and subscriptions.",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/"
+}

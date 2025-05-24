@@ -1,0 +1,244 @@
+{
+  "pets": [
+    {
+      "title": "Golden Retriever",
+      "fullDescription": "Golden Retrievers are friendly, intelligent, and devoted dogs. They are great family pets and are known for their gentle temperament. ",
+      "diet": [
+        "High-quality dog food with balanced nutrients. ",
+        "Occasional treats for training purposes. ",
+        "Fresh water available at all times. "
+      ],
+      "exercise": [
+        "Daily walks for at least 30-60 minutes. ",
+        "Playtime with toys like balls or frisbees. ",
+        "Swimming or other physical activities to keep them engaged. "
+      ],
+      "housing": [
+        "A spacious home with a yard is ideal. ",
+        "Comfortable bedding in a quiet area. ",
+        "Shelter from extreme weather conditions. "
+      ],
+      "image": "../assets/animals/GoldenRetriever.jpg"
+    },
+    {
+      "title": "Leopard Gecko",
+      "fullDescription": "Leopard Geckos are low-maintenance, docile reptiles that make excellent pets for beginners. They are known for their unique spotted patterns and calm demeanor. ",
+      "diet": [
+        "Live insects like crickets, mealworms, or dubia roaches. ",
+        "Calcium and vitamin D3 supplements for healthy growth. ",
+        "Fresh water in a shallow dish. "
+      ],
+      "exercise": [
+        "Climbing on rocks or branches in their enclosure. ",
+        "Exploring their habitat during the night. ",
+        "Occasional handling to build trust. "
+      ],
+      "housing": [
+        "A 10-20 gallon terrarium with a secure lid. ",
+        "Warm and cool zones with proper temperature gradients. ",
+        "Hiding spots and substrate suitable for reptiles. "
+      ],
+      "image": "../assets/animals/LeopardGecko.jpg"
+    },
+    {
+      "title": "Persian Cat",
+      "fullDescription": "Persian cats are calm, affectionate, and enjoy a relaxed lifestyle. They are known for their luxurious coats and sweet temperament. ",
+      "diet": [
+        "High-quality cat food, both wet and dry. ",
+        "Occasional treats for variety. ",
+        "Fresh water available at all times. "
+      ],
+      "exercise": [
+        "Interactive toys like feather wands or laser pointers. ",
+        "Climbing trees or scratching posts for activity. ",
+        "Short play sessions to keep them entertained. "
+      ],
+      "housing": [
+        "Indoor living to protect their coat and health. ",
+        "Soft bedding in a quiet, cozy spot. ",
+        "Regular grooming to maintain their fur. "
+      ],
+      "image": "../assets/animals/PersianCat.jpg"
+    },
+    {
+      "title": "Goldfish",
+      "fullDescription": "Goldfish are peaceful, hardy, and easy-to-care-for aquatic pets. They are ideal for beginners and thrive in well-maintained aquariums. ",
+      "diet": [
+        "High-quality fish flakes or pellets. ",
+        "Occasional treats like freeze-dried or live food. ",
+        "Avoid overfeeding to maintain water quality. "
+      ],
+      "exercise": [
+        "Adequate swimming space in the tank. ",
+        "Decorations like plants or rocks for exploration. ",
+        "Proper filtration to ensure water movement. "
+      ],
+      "housing": [
+        "A spacious aquarium with at least 20 gallons of water. ",
+        "Regular water changes and filtration. ",
+        "Stable water temperature and pH levels. "
+      ],
+      "image": "../assets/animals/GoldFish.jpg"
+    },
+    {
+      "title": "Betta Fish",
+      "fullDescription": "Betta fish are vibrant, hardy, and easy to care for. They are known for their beautiful fins and solitary nature. ",
+      "diet": [
+        "High-quality betta pellets or flakes. ",
+        "Occasional treats like freeze-dried bloodworms. ",
+        "Feed small amounts once or twice daily. "
+      ],
+      "exercise": [
+        "Swimming in a tank with space to explore. ",
+        "Decorations and plants for enrichment. ",
+        "Occasional mirror play for stimulation. "
+      ],
+      "housing": [
+        "A minimum 5-gallon tank with a lid.  ",
+        "Heater to maintain water temperature (76-82°F).  ",
+        "Regular water changes and filtration.  "
+      ],
+      "image": "../assets/animals/BettaFish.jpg"
+    },
+    {
+      "title": "Cockatiel",
+      "fullDescription": "Cockatiels are friendly, intelligent birds that enjoy social interaction and can mimic sounds. They make great companions for attentive owners. ",
+      "diet": [
+        "High-quality cockatiel pellets. ",
+        "Fresh fruits and vegetables. ",
+        "Occasional seeds as treats. "
+      ],
+      "exercise": [
+        "Daily out-of-cage time for flying. ",
+        "Toys and perches for mental stimulation. ",
+        "Social interaction with owners. "
+      ],
+      "housing": [
+        "Spacious cage with horizontal bars. ",
+        "Multiple perches and toys. ",
+        "Safe, draft-free location. "
+      ],
+      "image": "../assets/animals/Cockatiel.jpg"
+    },
+    {
+      "title": "Corn Snake",
+      "fullDescription": "Corn snakes are docile, easy-to-handle reptiles, ideal for beginners. They are known for their attractive patterns and manageable size. ",
+      "diet": [
+        "Appropriately sized frozen-thawed rodents. ",
+        "Feed every 7-10 days (adults). ",
+        "Fresh water available at all times. "
+      ],
+      "exercise": [
+        "Climbing branches and exploring enclosure. ",
+        "Occasional supervised handling. ",
+        "Hiding and burrowing in substrate. "
+      ],
+      "housing": [
+        "20-gallon or larger secure terrarium. ",
+        "Hiding spots and climbing branches. ",
+        "Temperature gradient with heat source. "
+      ],
+      "image": "../assets/animals/CornSnake.jpg"
+    },
+    {
+      "title": "Guinea Pig",
+      "fullDescription": "Guinea pigs are gentle, social rodents that thrive in pairs or groups. They are known for their vocalizations and affectionate nature. ",
+      "diet": [
+        "Unlimited hay for digestion. ",
+        "Fresh vegetables and guinea pig pellets. ",
+        "Vitamin C supplements and fresh water. "
+      ],
+      "exercise": [
+        "Daily floor time outside the cage. ",
+        "Tunnels and hideouts for exploration. ",
+        "Chew toys for dental health. "
+      ],
+      "housing": [
+        "Spacious cage with solid flooring. ",
+        "Soft bedding and hiding places. ",
+        "Clean environment with regular maintenance. "
+      ],
+      "image": "../assets/animals/GuineaPig.jpg"
+    },
+    {
+      "title": "Maine Coon",
+      "fullDescription": "Maine Coons are large, friendly cats known for their intelligence and playful personalities. They are affectionate and adapt well to families. ",
+      "diet": [
+        "High-quality cat food, wet and dry. ",
+        "Occasional treats for enrichment. ",
+        "Fresh water available at all times. "
+      ],
+      "exercise": [
+        "Interactive play with toys and climbing trees. ",
+        "Short walks on a leash (optional). ",
+        "Scratching posts for activity. "
+      ],
+      "housing": [
+        "Indoor living with ample space. ",
+        "Soft bedding and regular grooming. ",
+        "Safe outdoor access if possible. "
+      ],
+      "image": "../assets/animals/MaineCoon.jpg"
+    },
+    {
+      "title": "Siberian Husky",
+      "fullDescription": "Siberian Huskies are energetic, intelligent, and social dogs. They require plenty of exercise and enjoy being part of an active family. ",
+      "diet": [
+        "High-quality dog food with protein. ",
+        "Occasional healthy treats. ",
+        "Fresh water available at all times. "
+      ],
+      "exercise": [
+        "Daily vigorous exercise (runs, hikes). ",
+        "Playtime with toys and other dogs. ",
+        "Mental stimulation with training. "
+      ],
+      "housing": [
+        "Secure yard with high fencing. ",
+        "Shelter from extreme weather. ",
+        "Comfortable indoor sleeping area. "
+      ],
+      "image": "../assets/animals/SiberianHusky.jpg"
+    },
+    {
+      "title": "Silkie Chicken",
+      "fullDescription": "Silkie chickens are gentle, friendly birds with fluffy plumage. They are popular as pets and are known for their calm demeanor. ",
+      "diet": [
+        "Quality poultry feed. ",
+        "Fresh greens and occasional treats. ",
+        "Clean water available at all times. "
+      ],
+      "exercise": [
+        "Free-range time in a safe yard. ",
+        "Foraging for insects and seeds. ",
+        "Perches and dust baths for enrichment. "
+      ],
+      "housing": [
+        "Secure coop with soft bedding. ",
+        "Protection from predators. ",
+        "Clean, dry environment. "
+      ],
+      "image": "../assets/animals/SilkieChicken.jpg"
+    },
+    {
+      "title": "Tree Frog",
+      "fullDescription": "Tree frogs are small, arboreal amphibians that thrive in humid environments. They are fascinating to observe and require specific care. ",
+      "diet": [
+        "Live insects such as crickets and fruit flies. ",
+        "Calcium and vitamin supplements. ",
+        "Fresh, dechlorinated water. "
+      ],
+      "exercise": [
+        "Climbing on branches and plants. ",
+        "Exploring vertical space in enclosure. ",
+        "Occasional gentle handling. "
+      ],
+      "housing": [
+        "Tall terrarium with secure lid. ",
+        "Live plants and climbing branches. ",
+        "High humidity and regular misting. "
+      ],
+      "image": "../assets/animals/TreeFrog.jpg"
+    }
+  ]
+}
