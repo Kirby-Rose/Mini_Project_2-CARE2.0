@@ -1,23 +1,23 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
+import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
-
-import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import Fab from "@mui/material/Fab";
 
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import { useCart } from "../CartContext";
 
 const ShopCard = () => {
-  const [isFavorite, setIsFavorite] = React.useState(false);
-
   const [data, setData] = React.useState([]);
+  const { addToCart } = useCart();
 
   useEffect(() => {
-    fetch("/assets/data/ShopDetails.json")
+    fetch("http://localhost:3000/products")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -33,27 +33,46 @@ const ShopCard = () => {
 
   if (data.length < 0) return <Typography>Loading...</Typography>;
 
-  return data?.map((products) => (
-    <Card key={products.name} sx={{ maxWidth: 345, marginBottom: 2 }}>
-      <CardHeader title={products.name} subheader={products.price} />
-      <CardMedia
-        component="img"
-        height="194"
-        image={products.imageUrl}
-        alt={products.name}
-      />
-      <CardContent>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
-          {products.description}
-        </Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-        <IconButton aria-label="Save for later">
-          <FavoriteIcon />
-        </IconButton>
-      </CardActions>
-    </Card>
-  ));
+  return (
+    <Box
+      display="flex"
+      maxHeight={"95vh"}
+      flexWrap={"wrap"}
+      gap={2}
+      height={"inherit"}
+      justifyContent={"space-around"}
+      sx={{
+        scrollbarWidth: "none",
+        overflow: "auto",
+      }}
+    >
+      {data?.map((product) => (
+        <Card
+          key={product.name}
+          sx={{ minWidth: 345, maxWidth: 345, marginBottom: 2 }}
+        >
+          <CardHeader title={product.name} subheader={product.price} />
+          <CardMedia
+            component="img"
+            // sx={{ height: "194px", width: "300px" }}
+            image={product.imageUrl}
+            alt={product.name}
+          />
+          <CardContent>
+            <Typography variant="body2" sx={{ color: "text.secondary" }}>
+              {product.description}
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Fab color="primary" aria-label="add-to-cart">
+              <AddShoppingCartIcon onClick={() => addToCart(product)} />
+            </Fab>
+            <Typography> Add to Cart</Typography>
+          </CardActions>
+        </Card>
+      ))}
+    </Box>
+  );
 };
 
 export default ShopCard;

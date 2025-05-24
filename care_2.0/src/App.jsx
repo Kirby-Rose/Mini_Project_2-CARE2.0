@@ -1,22 +1,22 @@
 import "./App.css";
-import { Container } from "@mui/material";
+import { Box } from "@mui/material";
 import AppRoutes from "./AppRoutes";
 import HeaderNavBar from "./components/HeaderNavbar";
-import BrandingBar from "./components/BrandingBar";
 
 function App() {
   return (
-    <>
+    <Box>
       <HeaderNavBar />
-      <Container
+      <Box
         sx={{
           display: "flex",
-          height: "90vh",
+          height: "86vh",
+          mx: "50px",
         }}
       >
         <AppRoutes />
-      </Container>
-    </>
+      </Box>
+    </Box>
   );
 }
 

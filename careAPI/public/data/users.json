@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sheldon Cooper",
+      "email": "cooper@brainstrust.com",
+      "password": "genius",
+      "Pet": "Chimpanzee",
+      "PetName": "Carl",
+      "image": "../assets/userImages/Sheldon.jpg",
+      "PetBirthdate": "10/3/2000",
+      "PetDescription": "Carl is a highly intelligent chimpanzee. I have conducted several experiments with him, and his cognitive abilities are, dare I say, almost on par with Leonard's. He enjoys solving puzzles, but not as much as I do."
+    },
+    {
+      "id": 2,
+      "name": "Penny",
+      "email": "happy@startstruck.com",
+      "password": "password",
+      "Pet": "Pomeranian",
+      "PetName": "Princess",
+      "image": "../assets/userImages/Penny.jpg",
+      "PetBirthdate": "5/12/2018",
+      "PetDescription": "Princess is the cutest, fluffiest little Pomeranian ever! She loves cuddles, attention, and totally has better hair than me on most days."
+    },
+    {
+      "id": 3,
+      "name": "Howard Wolowitz",
+      "email": "astronaught@spaceguy.com",
+      "password": "uranus",
+      "Pet": "Chameleon",
+      "PetName": "Leonard",
+      "image": "../assets/userImages/Howard.jpg",
+      "PetBirthdate": "8/22/2017",
+      "PetDescription": "Leonard (the chameleon, not the man) is awesome. He changes colors almost as fast as I change my mind about what to eat for dinner. He's got a curious personality—just like me, except with a longer tongue."
+    },
+    {
+      "id": 4,
+      "name": "Raj Koothrappali",
+      "email": "Raj@brainrot.com",
+      "password": "hello",
+      "Pet": "Love Birds",
+      "PetName": "Romeo & Juliet",
+      "image": "../assets/userImages/Raj.jpg",
+      "PetBirthdate": "2/14/2021",
+      "PetDescription": "Romeo and Juliet are my adorable love birds. They sing together every morning, and honestly, their relationship is more romantic than any I've ever had."
+    }
+  ]
+}
